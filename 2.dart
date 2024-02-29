@@ -1,3 +1,43 @@
+/*
+Enter The Number of Customer : 1
+Enter ID : 4358
+Enter Name : taksh
+Enter Contact number : 7474121244
+1 for add product.
+2 for EXIT.
+Enter your choice : 1
+1       Soap    999
+2       Toothpaste      99
+3       Chilly Powder   29
+4       Tomato  59
+5       cabbage 35
+6       Graps   59
+7       Mango Pulp      299
+8       Pumpkin 22
+9       Ice-cream       39
+10      Apple   78
+Enter product number to add your cart : 4
+Enter quantity :5
+1 for add product.
+2 for EXIT.
+Enter your choice : 1
+1       Soap    999
+2       Toothpaste      99
+3       Chilly Powder   29
+4       Tomato  59
+5       cabbage 35
+6       Graps   59
+7       Mango Pulp      299
+8       Pumpkin 22
+9       Ice-cream       39
+10      Apple   78
+Enter product number to add your cart : 8
+Enter quantity :6
+1 for add product.
+2 for EXIT.
+Enter your choice : 2
+your bill is 128.1
+Enter search id numb*/
 import 'dart:io';
 
 class Product {
