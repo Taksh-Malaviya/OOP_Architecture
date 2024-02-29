@@ -1,3 +1,11 @@
+/*Enter lenth of list : 5
+Enter element
+2
+5
+3
+6
+9
+ANS : 25*/
 import 'dart:io';
 
 class Add {
@@ -12,12 +20,12 @@ class Add {
 
 void main() {
   List l = [];
-  sum s = Add();
-  stdout.write("Enter lenth of list : ");
+  Add a = Add();
+  stdout.write("Enter lenth : ");
   int n = int.parse(stdin.readLineSync()!);
-  print("Enter element");
+  print("Enter Elements");
   for (int i = 0; i < n; i++) {
     l.add(int.tryParse(stdin.readLineSync()!));
   }
-  s.calculate(l:l,n:n);
+  a.calculate(l:l,n:n);
 }
