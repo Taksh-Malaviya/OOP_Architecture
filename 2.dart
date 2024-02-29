@@ -142,7 +142,7 @@ class customer {
         case 2:
           break;
         default:
-          print("Enter valid Number!!");
+          print("Enter valid Number!");
           break;
       }
     } while (choice != 2);
