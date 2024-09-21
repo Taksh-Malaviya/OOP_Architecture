@@ -118,7 +118,7 @@ class customer {
     } else {
      b=(bill * 30) / 100;
     }
-    print("your bill is $b");
+    print("your bill is {$bill-$b}");
   }
 }
 
